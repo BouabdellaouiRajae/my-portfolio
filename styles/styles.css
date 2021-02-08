@@ -16,10 +16,10 @@ header nav ul li {
 
     list-style: none;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 3.125em;
     color: #707070;
-    margin-top: 18px;
-    margin-bottom: 25px;
+    margin-top:1.125em ;
+    margin-bottom:1.5625em ;
 
 }
 
@@ -38,8 +38,8 @@ header nav ul li a.active {
  flex-direction: row;
  justify-content: flex-start;
  align-items: center;
-  margin-left: -400px;
-  margin-top: -28px;
+  margin-left:-25em ;
+  margin-top: -1.75em;
 }
 .container {
     display: flex;
@@ -78,7 +78,7 @@ p{
     position: absolute;
     margin-top: 265px;
     margin-left: 820px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .click{
     position: absolute;
@@ -88,13 +88,14 @@ p{
      width: 200px;
      height: 60px;
     border-radius: 36px;
+    border: none;
 
 }
 .go{
     text-decoration: none;
     color: #ffffff;
     font-family: 'montserrat';
-    font-size: 20px;
+    font-size:1.25em ;
 
 }
 .social{
@@ -125,9 +126,10 @@ footer{
      width: 200px;
      height: 60px;
     border-radius: 36px;
+    border: none;
     color: #ffffff;
     font-family: 'montserrat';
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .txt1{
     font-family: 'montserrat';
@@ -181,32 +183,33 @@ footer{
 .color{
     background-color: #2B2A2B;
 }
-h1{
+.mywork{
+    
     color: #ffffff;
     font-family: 'montserrat';
     font-weight: lighter;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    
+    justify-content: center;
 }
 
 .prj{
+    
     font-weight: lighter;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
+/*
 
+*/
 .card{
     position: absolute;
     text-decoration: none;
 color: #ABDB25;
-margin-left: 20px;
-margin-top: 20px;
-width: 196px;
+margin-left:1.25em ;
+margin-top: 5px;
+width: 225px;
 }
 .box{
     background-color: #ffffff;
@@ -221,10 +224,7 @@ width: 196px;
    
 }
 .par{
-
-    margin-left: 20px;
-
-
+    margin-left:1.25em ;
 }
 .log{
     width: 40px;
@@ -235,4 +235,80 @@ width: 196px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.send{
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
+h1{
+    float: left;
+    color: #ABDB25;
+    font-family: 'montserrat';
+    font-size:1.25em ;
+    display: block;
+    font-weight: lighter;
+    
+}
+.text{
+    width:20.75em ;
+    height:9.375em ;
+    border-radius:1.875em ;
+    border: none;
+}
+.line{
+    width:9.375em ;
+    display: inline-block;
+    font-family: 'montserrat';
+    color:#B2A5A5 ;
+    
+    
+    
+}
+.infos{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+   
+}
+input{
+    width:20.75em ;
+    height:3.5em ;
+    border-radius: 1.875em;
+    border: none;
+    margin-top: 1.25em;
+
+}
+.all{
+    margin-top:0.9375em ;
+}
+.title{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+   margin-right:61.25em ;
+    
+}
+.btn{
+    background-color: #ABDB25;
+    width:11.5em ;
+    height:2.75em ;
+   border-radius:2.25em ;
+   border: none;
+   color: #ffffff;
+   font-family: 'montserrat';
+   font-size: 1.25em;
+   margin-top:1.25em ;
+   margin-left: 14em;
+}
+
+
+@media (max-width: 375px) {
+    a {
+        font-size: 10px;
+
+    }
+    
 }
